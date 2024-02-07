@@ -1,0 +1,15 @@
+This application creates a simple menu-driven command line interface for performing fundamental file system tasks in Windows.
+
+Here are the major points:
+
+
+- It offers the user with a selection of six possibilities and repeatedly asks them to select one until they choose to depart.
+Option 1 uses the dir command to list the contents of a directory.
+- Option 2 uses the cd command to display the current working directory.
+- Option 3 creates and then deletes the directory cs540-hw1.
+- Option 4 uses the echo command to produce a greeting message.
+- Option 5 uses the type command to concatenate text files and create a merged_file.
+- It is written in C++, although the majority of the work is accomplished by invoking Windows system commands.
+- There is some rudimentary error handling; for example, if creating/deleting directories or concatenating fails, errors are shown.
+- The comments at the top suggest that this is homework 1 for a CS-540 class by a student called Nguyen Huu Tam Ton.
+To summarize, it allows you to explore some fundamental file system functions by invoking CLI commands from a C++ application using a simple menu interface.
